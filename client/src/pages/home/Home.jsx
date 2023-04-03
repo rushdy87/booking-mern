@@ -1,4 +1,4 @@
-import { Featured, Header, Navbar } from '../../components';
+import { Featured, Header, Navbar, PropertyList } from '../../components';
 
 import './Home.css';
 
@@ -9,6 +9,8 @@ const Home = () => {
       <Header />
       <div className="home-container">
         <Featured />
+        <h1 className="home-title">Browse by property type</h1>
+        <PropertyList />
       </div>
     </div>
   );
