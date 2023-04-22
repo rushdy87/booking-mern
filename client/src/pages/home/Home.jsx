@@ -5,6 +5,7 @@ import {
   Navbar,
   PropertyList,
   MailList,
+  Footer,
 } from '../../components';
 
 import './Home.css';
@@ -21,6 +22,7 @@ const Home = () => {
         <h1 className="home-title">Homes guests love</h1>
         <FeaturedProperties />
         <MailList />
+        <Footer />
       </div>
     </div>
   );
