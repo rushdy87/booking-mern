@@ -4,6 +4,7 @@ import {
   Header,
   Navbar,
   PropertyList,
+  MailList,
 } from '../../components';
 
 import './Home.css';
@@ -19,6 +20,7 @@ const Home = () => {
         <PropertyList />
         <h1 className="home-title">Homes guests love</h1>
         <FeaturedProperties />
+        <MailList />
       </div>
     </div>
   );
